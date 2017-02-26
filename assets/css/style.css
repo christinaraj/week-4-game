@@ -4,43 +4,61 @@ body {
 
 h1 {
 	background-color: brown;
-	width: 300px;
-	padding: 15px;
 	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 15px;
+	font-family: 'Sansita', sans-serif;
+
 }
 
 #instructions {
+	position: center;
 	background-color: pink;
-	width: 300px;
-	padding: 15px;
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
 	color: green;
-	margin: 21.440px;
+	margin: 21.440px 21.440px 21.440px 200px;
+	height: 200px;
+	width: 1005px;
 }
 
-#randomNum {
+.total {
 	background-color: green;
 	color: purple;
 	width: 300px;
 	padding: 15px;
-	margin: 21.440px;
+	margin: 21.440px 500px 21.440px 500px;
 }
 
 #scoreboard {
 	background-color: blue;
 	width: 300px;
 	padding: 15px;
-	margin: 21.440px;
+	margin: 21.440px 500px 21.440px 500px;
 }
 
 #totalScore {
 	background-color: teal;
 	width: 300px;
 	padding: 15px;
-	margin: 21.440px;
+	margin: 21.440px 500px 21.440px 500px;
 }
 
 img {
 	width: 60px;
 	height: 60px;
+	margin: 21.440px 21.440px 21px 500px;
+	
+	}
+#blue {
+	margin: 21.440px;
 }
 
+#green {
+	margin: 21.440px;
+}
+
+#yellow {
+	margin: 21.440px;
+}

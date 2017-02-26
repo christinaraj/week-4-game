@@ -3,6 +3,8 @@
 <head>
 	<title>Crystal Collectors</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Sansita:700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 </head>
 <body>
 
@@ -19,14 +21,15 @@
 	</div>
 	
 	<div id="container">
-		<div id="randomNum">
-			<h2>Number to guess:</h2>
+		<h2>
+    <div class="total">
+			Number to guess:</h2>
 		</div>
 
 		<div id="scoreboard">
 			<h3><span id="status"></span></h3>
-			<h3>Wins: <span id="win"></span></h3>
-			<h3>Losses: <span id="loss"></span> </h3>
+			<h3>Wins: <span id="wins"></span></h3>
+			<h3>Losses: <span id="losses"></span> </h3>
 		</div>
 	</div>
 
@@ -37,10 +40,10 @@
         <img src="assets/images/green.png" class="click" id="green">
    </div>
 
-<div id="crystals"></div>
+
 
 	<div id ="totalScore">
-		<h2 id = "yts">Total Score: <span id ="yourScore">0</span></h2>
+		<h2 id = "ts">Total Score: <span id ="yourScore"><div class="addition"></div></span></h2>
 		
 	</div>
 
@@ -51,6 +54,9 @@
 	</div>
 </div>
 
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
